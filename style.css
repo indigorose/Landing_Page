@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	/* Hero and footer - dark background color */
+	--main-1: #1f2937;
+	--main-2: #f9faf8;
+	--main-3: #e5e7eb;
+	--main-4: #1f2937;
+	--main-5: #3882f6;
+}
+
+body {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #e5e5e5;
+}
+
+.row {
+	display: flex;
+}
+
+
+.header-footer{
+	background-color: #1f2937;
+	padding: 1em;
+
+}
+.navbar{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+}
+
