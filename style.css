@@ -18,6 +18,7 @@
 body {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
+	font-size: 16px;
 }
 
 a {
@@ -29,15 +30,50 @@ a {
 	display: flex;
 }
 
-
-.header-footer{
+.header-footer {
 	background-color: #1f2937;
 	padding: 1em;
-
 }
-.navbar{
+.navbar {
 	display: flex;
 	text-decoration: none;
 	list-style: none;
 }
 
+.hero {
+	background-color: #1f2937;
+	padding: 3em;
+}
+.hero__text{
+	border: 2px solid white;
+	color: #e5e5e5;
+}
+.hero__img{
+	height: 200px;
+	width: 400px;
+	background-color: #696969;
+	color: #e5e7eb;
+}
+
+.hero-2 {
+	padding: 3em;
+}
+
+.img{
+	border: 3px solid blue;
+	height: 200px;
+	width: 200px;
+}
+
+.hero-3 {
+	background-color: #e5e5e5;
+	padding: 3em;
+}
+.hero-4 {
+	padding: 3em;
+}
+
+.accent{
+	padding: 3em;
+	background-color: #3882f6;
+}
